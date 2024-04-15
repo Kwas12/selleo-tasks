@@ -7,7 +7,7 @@ function calculateCalibrationFromLine({ line }: { line: string }) {
 
   for (const char of line) {
     const candidateToNumber = Number(char);
-    if (Number.isInteger(candidateToNumber)) {
+    if (candidateToNumber) {
       if (firstNumber == null) {
         firstNumber = candidateToNumber;
       }
