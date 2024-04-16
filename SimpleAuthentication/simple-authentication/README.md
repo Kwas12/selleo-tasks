@@ -58,6 +58,17 @@ $ yarn run test:e2e
 $ yarn run test:cov
 ```
 
+## EXAMPLE .ENV
+
+```bash
+TYPE_DB = "sqlite"
+DATABASE_NAME = "db/sql"
+REFRESH_TOKEN_SECRET=<key>
+REFRESH_TOKEN_EXPIRY=24h
+ACCESS_TOKEN_SECRET=<key>
+ACCESS_TOKEN_EXPIRY=60s
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
